@@ -9,7 +9,6 @@
     <link href="./css/reveal.css" rel="stylesheet">
     <script src="./js/scroll.js"></script>
     <script src="./js/reveal.js"></script>
-    <script src="./js/texts.js"></script>
     <script src="./js/cover.js"></script>
 </head>
 
@@ -17,7 +16,7 @@
     <nav class="navbar fixed-top navbar-expand-lg" style="--bs-bg-opacity: .99;">
         <div class="container-fluid">
             <a class="navbar-brand" href="./index.html">
-                <img src="./images/logo-aejd.svg" alt="" height="30">
+                <img src="./images/ae.JPG" alt="" height="30" id="navbar-icon">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +42,7 @@
     <div id="cover">
         <div id="cover-content">
             <h1 class="reveal" id="cover-text">Associação de Estudantes Da ESJD</h1>
-            <img id="cover-logo" class="reveal" src="./images/logo-aejd.svg" alt="Logo da AEJD">
+            <img id="cover-logo" class="reveal" src="./images/ae.JPG" alt="Logo da AEJD">
         </div>
     </div>
     <div class="content">
@@ -53,7 +52,7 @@
             <div class="col-11">
         <a href="./missmister.html" class="no-decor">
             <div class="row justify-content-end position-relative" id="miss-mister">
-                <div class="col-6 d-flex justify-content-end align-items-center">
+                <div class="col-sm-6 col-10 d-flex justify-content-end align-items-center">
                     <h3>Miss & Mister 2022</h3>
                 </div>
                 <div class="col-1 d-flex align-items-center">
@@ -69,7 +68,7 @@
         <div class="row anchor justify-content-center" id="about">
             <div class="col-lg-5 col-md-8">
                 <h1 class="reveal">Quem somos?</h1>
-                <p class="fs-5 reveal" id="about-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p class="fs-5 reveal" id="about-content">Nós somos a Associação de Estudantes Júlio Dantas, de Lagos (AEJDL), organização representativa dos alunos da Escola Secundária Júlio Dantas, de Lagos, e temos como objetivo não só representar todos os estudantes do Estabelecimento de Ensino mas também promover ao seu bem-estar, integração, defender e promover os valores fundamentais do ser humano, contribuir para a participação dos estudantes na vida escolar e na discussão dos problemas educativos, cooperar com organismos estudantis, nacionais ou estrangeiros, cujos princípios não contrariem os aqui definidos, entre muitos outros.</p>
             </div>
             <div class="col-lg-1"></div>
             <div class="col-lg-4 col-md-8 d-flex align-items-center justify-content-center">
@@ -78,12 +77,18 @@
         </div>
         <div class="spacer-48"></div>
         <div class="row anchor justify-content-center mb-3" id="team">
-            <div class="col-lg-5 col-md-8 d-flex align-items-center justify-content-center">
+            <div class="col-lg-5 col-md-8 d-flex align-items-center justify-content-center d-none d-md-block">
                 <div class="image reveal" style="--url: url(../images/esjd.jpg)"></div>
             </div>
             <div class="col-lg-5 col-md-8 mt-3">
                 <h1 class="reveal">A nossa equipa</h1>
-                <p class="fs-5 reveal" id="team-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p class="reveal fs-5">A AEJDL é constituída por três órgãos: o órgão representativo, isto é, a Assembleia Geral, o órgão de administração, isto é, a Direção e o órgão de planeamento orçamental, isto é, o Conselho Fiscal;</p>
+                <p class="reveal fs-5">Do órgão de Administração fazem parte a Presidente Nicole Lucas, a Vice-Presidente Ana Rita Duarte, a Secretária Mafalda de Carvalho, o Tesoureiro Joaquim Pomba, o Vogal Francisco Martins, o Mandatária André Kravets e a suplente Amanda Malynnyk.</p>
+                <p class="reveal fs-5">Do órgão representativo fazem parte a Presidente Délia Popovici, as Secretárias Alice Costa e Carlota Benedy e a suplente Celina Sousa.</p>
+                <p class="reveal fs-5">Do órgão de planeamento orçamental fazem parte a Presidente Alice Costa, a Secretária Matilde Freitas, os Relatores Gabriela Rodrigues e Marcelo Araújo e os Suplentes Jorge Portela e Tiago Russo.</p>
+            </div>
+            <div class="col-lg-5 col-md-8 d-flex align-items-center justify-content-center d-md-none">
+                <div class="image reveal" style="--url: url(../images/esjd.jpg)"></div>
             </div>
         </div>
         <div class="spacer-100"></div>
@@ -92,8 +97,12 @@
                 <h1>Próximos eventos:</h1>
                 <div class="spacer-100"></div>
                 <ul id="event-list">
+                    <li class="fs-5">Miss e Mister: 27.05.2022</li>
+                    <li class="fs-5">Baile de Finalistas de 9ºAno: 10.06.2022</li>
+                    <li class="fs-5">Baile de Finalistas de 12ºAno: 27.06.2022</li>
+                    <a href="https://www.google.com/"><button class="btn btn-outline-warning"></button></a>
                 </ul>
-            </div> 
+            </div>
         </div>
     </div>
     <div class="spacer-200"></div>

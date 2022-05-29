@@ -12,7 +12,7 @@
     z-index: -1;
 }
 #half-cover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/classroom.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/missmister.JPG);
     background-size: cover;
     background-position: center;
     height: 50vh;
@@ -30,8 +30,8 @@
     transition: none;
 }
 #cover-logo {
-    height: min(20vh, 20vw);
-    border-radius: 15px;
+    height: min(20vh, 40vw);
+    border-radius: 15%;
 }
 #cover-content {
     position: relative;
@@ -116,10 +116,10 @@ p {
 
 #miss-mister {
     height: 160px;
-    background: linear-gradient(115deg, rgba(255,255,255,0.2), rgb(177, 59, 232) 30%, rgba(174, 0, 255, 1) 40%, rgb(47, 2, 68)), url(../images/classroom.jpeg);
+    background: linear-gradient(115deg, rgba(255,255,255,0.2), rgb(177, 59, 232) 70%, rgb(47, 2, 68)), url(../images/missmister.JPG);
     background-position: left;
     background-repeat: no-repeat;
-    background-size: cover, 40vw;
+    background-size: cover, 90%;
     border-radius: 10px;
     color: white;
     transition: 0.5s all ease;
@@ -148,13 +148,14 @@ p {
     transform: translateX(200%);
 }
 #events {
-    height: 400px;
+    min-height: 400px;
     padding: 50px;
     background: linear-gradient(115deg, rgba(0, 0, 0, 0.8), rgba(90, 5, 130, 0.8)), url(../images/confetis.png);
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     color: white;
     transition: 0.5s all ease;
     flex-direction: column;
@@ -170,4 +171,22 @@ a, a:hover {
 }
 .navbar-toggler {
     color: white;
+}
+#navbar-icon {
+    border-radius: 15%;
+}
+.arquivo, .arquivo:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/documentos.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.arquivo:hover {
+    text-decoration: none;
 }
